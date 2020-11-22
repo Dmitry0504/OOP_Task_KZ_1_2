@@ -1,0 +1,17 @@
+public enum Groups {
+
+    PRI19_SZ("ПРИ-19сз"),
+    PI11("ПИ11"),
+    UR23("Юр23");
+
+    private String groupID;
+
+    Groups(String groupID) {
+        this.groupID = groupID;
+    }
+
+    @Override
+    public String toString() {
+        return groupID;
+    }
+}
